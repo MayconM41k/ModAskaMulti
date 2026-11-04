@@ -1,13 +1,14 @@
 ﻿# Mod ASKA - Multi Aldeias (Olhos de Odin Independentes)
 
-Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Drive**, atualizados para a versÃ£o **v0.9.7**.
+Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Drive**, atualizados para a versÃ£o **v0.9.8**.
 
 ---
 
-### Novidades da VersÃ£o v0.9.7:
-* **Progresso e DiÃ¡rio 100% Individuais por Jogador**: O desbloqueio de construÃ§Ãµes Ã© restrito exclusivamente ao que cada jogador construiu pessoalmente. ConstruÃ§Ãµes feitas por outros jogadores na sessÃ£o nÃ£o destravam mais o seu diÃ¡rio nem seus menus de construÃ§Ã£o mundiais.
-* **Fogueira e Estruturas Iniciais Desbloqueiam PrÃ³ximos Tiers Imediatamente**: Ao colocar a Fogueira Simples ou qualquer outra estrutura inicial na praia/mundo, ela Ã© registrada instantaneamente no perfil do jogador, permitindo progredir na Ã¡rvore de construÃ§Ãµes (como Abrigo, Coletor de Chuva, etc.) sem ser bloqueado por validaÃ§Ã£o.
-* **Compartilhamento de Bancadas com Filtragem Individual de Receitas**: Jogadores podem usar estruturas e bancadas avanÃ§adas uns dos outros, porÃ©m cada jogador sÃ³ consegue visualizar e fabricar as receitas e itens que ele prÃ³prio jÃ¡ desbloqueou.
+### Novidades da VersÃ£o v0.9.8:
+* **BotÃ£o/Flag de AtivaÃ§Ã£o na Tela Multiplayer (Canto Superior Direito)**: Adicionado um botÃ£o visual verde/vermelho no canto superior direito das telas de criaÃ§Ã£o de jogo multiplayer e menus. Basta clicar nele (ou pressionar **F7**) para alternar entre Ativado e Desativado a qualquer momento.
+* **CorreÃ§Ã£o CrÃ­tica no Carregamento do Mod**: Corrigida a assinatura dos ganchos de eventos do banco de dados que causava erro no BepInEx durante o inÃ­cio do jogo.
+* **Progresso e DiÃ¡rio 100% Individuais por Jogador**: Desbloqueios de construÃ§Ãµes vinculados estritamente ao que cada jogador construiu pessoalmente.
+* **Compatibilidade e Compartilhamento de Bancadas**: Uso compartilhado de bancadas avanÃ§adas mantendo a Ã¡rvore de receitas individual de cada jogador.
 
 ---
 
@@ -28,5 +29,5 @@ Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Dri
   - core/: Motor do BepInEx e Harmony.
   - interop/: Bibliotecas do jogo geradas para compatibilidade.
   - config/AskaMultipleEye.cfg: ConfiguraÃ§Ãµes seguras do mod.
-  - plugins/AskaMultipleEye/AskaMultipleEye.dll: Arquivo do mod (v0.9.7).
+  - plugins/AskaMultipleEye/AskaMultipleEye.dll: Arquivo do mod (v0.9.8).
 - **LEIA-ME_COMO_INSTALAR.txt**: InstruÃ§Ãµes rÃ¡pidas em texto.
