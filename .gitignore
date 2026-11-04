@@ -1,0 +1,4 @@
+﻿BepInEx/cache/
+*.log
+*.tmp
+.vs/

@@ -1,0 +1,19 @@
+﻿======================================================
+   MOD ASKA - PROGRESSAO INDIVIDUAL POR JOGADOR (v0.9.0)
+======================================================
+
+COMO INSTALAR NO ASKA DO SEU AMIGO:
+1. Abra a pasta onde o ASKA esta instalado na Steam:
+   ...\Steam\steamapps\common\ASKA
+2. Copie TODOS os arquivos e pastas que estao dentro de Mod_ASKA_MultiAldeia:
+   - BepInEx (pasta)
+   - dotnet (pasta)
+   - winhttp.dll
+   - doorstop_config.ini
+   - .doorstop_version
+3. Cole tudo direto dentro da pasta principal do ASKA dele
+   (se pedir para substituir arquivos, clique em Sim).
+4. Se ele jogar no Linux (Steam Deck ou Linux Mint) via Proton:
+   Adicione nas Opcoes de Inicializacao do ASKA na Steam dele:
+   WINEDLLOVERRIDES="winhttp=n,b" %command%
+   (No Windows nao precisa configurar nada, e so abrir o jogo!)
