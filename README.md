@@ -1,12 +1,13 @@
 ﻿# Mod ASKA - Multi Aldeias (Olhos de Odin Independentes)
 
-Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Drive**, atualizados para a versÃ£o **v0.9.6**.
+Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Drive**, atualizados para a versÃ£o **v0.9.7**.
 
 ---
 
-### Novidades da VersÃ£o v0.9.6:
-* **EvoluÃ§Ã£o Vinculada Diretamente ao Jogador**: A construÃ§Ã£o de qualquer estrutura (como Fogueira Simples, Abrigo, etc.) Ã© registrada imediatamente no progresso do jogador, liberando as prÃ³ximas construÃ§Ãµes e receitas sem depender do Olho de Odin ou de vilas.
-* **CorreÃ§Ã£o no Posicionamento de Estruturas**: Removida a validaÃ§Ã£o excessiva que causava 'BAD_SETUP' e impedia jogadores de construir livremente.
+### Novidades da VersÃ£o v0.9.7:
+* **Progresso e DiÃ¡rio 100% Individuais por Jogador**: O desbloqueio de construÃ§Ãµes Ã© restrito exclusivamente ao que cada jogador construiu pessoalmente. ConstruÃ§Ãµes feitas por outros jogadores na sessÃ£o nÃ£o destravam mais o seu diÃ¡rio nem seus menus de construÃ§Ã£o mundiais.
+* **Fogueira e Estruturas Iniciais Desbloqueiam PrÃ³ximos Tiers Imediatamente**: Ao colocar a Fogueira Simples ou qualquer outra estrutura inicial na praia/mundo, ela Ã© registrada instantaneamente no perfil do jogador, permitindo progredir na Ã¡rvore de construÃ§Ãµes (como Abrigo, Coletor de Chuva, etc.) sem ser bloqueado por validaÃ§Ã£o.
+* **Compartilhamento de Bancadas com Filtragem Individual de Receitas**: Jogadores podem usar estruturas e bancadas avanÃ§adas uns dos outros, porÃ©m cada jogador sÃ³ consegue visualizar e fabricar as receitas e itens que ele prÃ³prio jÃ¡ desbloqueou.
 
 ---
 
@@ -27,5 +28,5 @@ Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Dri
   - core/: Motor do BepInEx e Harmony.
   - interop/: Bibliotecas do jogo geradas para compatibilidade.
   - config/AskaMultipleEye.cfg: ConfiguraÃ§Ãµes seguras do mod.
-  - plugins/AskaMultipleEye/AskaMultipleEye.dll: Arquivo do mod (v0.9.6).
+  - plugins/AskaMultipleEye/AskaMultipleEye.dll: Arquivo do mod (v0.9.7).
 - **LEIA-ME_COMO_INSTALAR.txt**: InstruÃ§Ãµes rÃ¡pidas em texto.
