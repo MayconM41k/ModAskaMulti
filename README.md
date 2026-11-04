@@ -1,11 +1,12 @@
 ﻿# Mod ASKA - Multi Aldeias (Olhos de Odin Independentes)
 
-Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Drive**, atualizados para a versÃ£o **v0.9.5**.
+Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Drive**, atualizados para a versÃ£o **v0.9.6**.
 
 ---
 
-### Novidades da VersÃ£o v0.9.5:
-* **Uso Compartilhado de Estruturas com Receitas Individuais**: Jogadores podem usar oficinas e bancadas de outros jogadores (ex: Oficina AvanÃ§ada), mas cada jogador sÃ³ vÃª e produz os itens e ferramentas que ele prÃ³prio tem desbloqueados.
+### Novidades da VersÃ£o v0.9.6:
+* **EvoluÃ§Ã£o Vinculada Diretamente ao Jogador**: A construÃ§Ã£o de qualquer estrutura (como Fogueira Simples, Abrigo, etc.) Ã© registrada imediatamente no progresso do jogador, liberando as prÃ³ximas construÃ§Ãµes e receitas sem depender do Olho de Odin ou de vilas.
+* **CorreÃ§Ã£o no Posicionamento de Estruturas**: Removida a validaÃ§Ã£o excessiva que causava 'BAD_SETUP' e impedia jogadores de construir livremente.
 
 ---
 
@@ -26,5 +27,5 @@ Este repositÃ³rio contÃ©m **os mesmos arquivos prontos para jogar do Pen Dri
   - core/: Motor do BepInEx e Harmony.
   - interop/: Bibliotecas do jogo geradas para compatibilidade.
   - config/AskaMultipleEye.cfg: ConfiguraÃ§Ãµes seguras do mod.
-  - plugins/AskaMultipleEye/AskaMultipleEye.dll: Arquivo do mod (v0.9.5).
+  - plugins/AskaMultipleEye/AskaMultipleEye.dll: Arquivo do mod (v0.9.6).
 - **LEIA-ME_COMO_INSTALAR.txt**: InstruÃ§Ãµes rÃ¡pidas em texto.
